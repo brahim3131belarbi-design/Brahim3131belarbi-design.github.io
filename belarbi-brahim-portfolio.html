@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Professional portfolio of Belarbi Brahim — Customer Relations, Sales and Operations professional in Oran, Algeria.">
+<title>Belarbi Brahim | Customer Relations & Sales</title>
+<style>
+:root{
+  --navy:#101828; --blue:#155EEF; --blue2:#0B4CCB; --light:#F7F9FC;
+  --text:#344054; --muted:#667085; --white:#fff; --border:#E4E7EC;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Inter,Arial,sans-serif;color:var(--text);background:var(--white);line-height:1.65}
+a{color:inherit;text-decoration:none}
+.container{width:min(1080px,92%);margin:auto}
+nav{position:sticky;top:0;z-index:10;background:rgba(255,255,255,.94);backdrop-filter:blur(10px);border-bottom:1px solid var(--border)}
+.nav{height:68px;display:flex;align-items:center;justify-content:space-between}
+.logo{font-weight:800;font-size:20px;color:var(--navy)}
+.logo span{color:var(--blue)}
+.navlinks{display:flex;gap:25px;font-size:14px;font-weight:600;color:var(--muted)}
+.hero{background:linear-gradient(135deg,#f5f8ff 0%,#fff 65%);padding:90px 0 78px}
+.hero-grid{display:grid;grid-template-columns:1.35fr .65fr;gap:60px;align-items:center}
+.eyebrow{display:inline-flex;padding:7px 12px;border-radius:999px;background:#EAF2FF;color:var(--blue);font-weight:700;font-size:13px;margin-bottom:20px}
+h1{font-size:clamp(42px,7vw,68px);line-height:1.03;color:var(--navy);letter-spacing:-2px;margin-bottom:20px}
+.hero h2{font-size:24px;color:var(--blue);margin-bottom:20px}
+.lead{font-size:18px;color:var(--muted);max-width:680px}
+.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}
+.btn{display:inline-block;padding:12px 18px;border-radius:9px;font-weight:700;border:1px solid var(--border)}
+.btn-primary{background:var(--blue);color:#fff;border-color:var(--blue)}
+.btn-primary:hover{background:var(--blue2)}
+.btn-light{background:#fff}
+.profile-card{background:#fff;border:1px solid var(--border);border-radius:18px;padding:28px;box-shadow:0 15px 45px rgba(16,24,40,.08)}
+.initials{width:82px;height:82px;border-radius:18px;background:var(--navy);color:#fff;display:grid;place-items:center;font-size:28px;font-weight:800;margin-bottom:22px}
+.profile-card h3{color:var(--navy);font-size:21px}
+.profile-card p{color:var(--muted);margin-top:5px}
+.meta{margin-top:22px;display:grid;gap:11px;font-size:14px}
+section{padding:82px 0}
+section.alt{background:var(--light)}
+.section-title{font-size:34px;color:var(--navy);letter-spacing:-.7px;margin-bottom:12px}
+.section-sub{color:var(--muted);max-width:720px;margin-bottom:35px}
+.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:26px}
+.card h3{color:var(--navy);margin-bottom:10px}
+.timeline{border-left:2px solid #D0D5DD;padding-left:28px}
+.role{position:relative;margin-bottom:35px}
+.role:before{content:"";position:absolute;width:12px;height:12px;background:var(--blue);border:4px solid #EAF2FF;border-radius:50%;left:-37px;top:7px}
+.role h3{color:var(--navy);font-size:21px}
+.role .date{color:var(--blue);font-weight:700;font-size:14px;margin:3px 0 10px}
+ul{padding-left:20px}
+li{margin:7px 0}
+.skills{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.skill{background:#fff;border:1px solid var(--border);border-radius:14px;padding:22px}
+.skill h3{font-size:17px;color:var(--navy);margin-bottom:10px}
+.tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.tag{background:#F2F4F7;border-radius:999px;padding:6px 10px;font-size:12px;font-weight:600}
+.highlight{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.highlight .card{text-align:center}
+.number{font-size:34px;font-weight:800;color:var(--blue);display:block}
+.contact{background:var(--navy);color:#fff}
+.contact .section-title{color:#fff}
+.contact .section-sub{color:#D0D5DD}
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:25px}
+.contact-card{border:1px solid #344054;border-radius:14px;padding:24px}
+.contact-card strong{display:block;margin-bottom:4px}
+.contact-card span{color:#D0D5DD}
+footer{background:#0B1220;color:#98A2B3;padding:22px 0;text-align:center;font-size:13px}
+@media(max-width:800px){
+ .hero-grid,.about-grid,.contact-grid{grid-template-columns:1fr}
+ .skills,.highlight{grid-template-columns:1fr}
+ .navlinks{display:none}
+ .hero{padding:65px 0}
+ section{padding:60px 0}
+}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="container nav">
+    <a class="logo" href="#top">B<span>B</span></a>
+    <div class="navlinks">
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <div class="container hero-grid">
+    <div>
+      <div class="eyebrow">Oran, Algeria · Available for full-time work</div>
+      <h1>Belarbi Brahim</h1>
+      <h2>Customer Relations &amp; Sales Professional</h2>
+      <p class="lead">
+        Customer-facing professional with 10 years of experience in sales, customer service,
+        stock management and daily operations. Ready to bring strong communication,
+        acquisition and follow-up skills to a dynamic field role.
+      </p>
+      <div class="actions">
+        <a class="btn btn-primary" href="#contact">Contact me</a>
+        <a class="btn btn-light" href="#experience">View experience</a>
+      </div>
+    </div>
+    <aside class="profile-card">
+      <div class="initials">BB</div>
+      <h3>Professional Profile</h3>
+      <p>Customer service · Sales · Operations</p>
+      <div class="meta">
+        <div>📍 Oran, Algeria</div>
+        <div>💼 10 years of pharmacy sales experience</div>
+        <div>🎓 Bachelor's degree in Telecommunications</div>
+        <div>📈 Customer acquisition mindset</div>
+      </div>
+    </aside>
+  </div>
+</header>
+
+<section id="about">
+  <div class="container">
+    <h2 class="section-title">About Me</h2>
+    <p class="section-sub">A practical, customer-oriented professional with strong experience in day-to-day sales and operations.</p>
+    <div class="about-grid">
+      <div class="card">
+        <h3>Professional Summary</h3>
+        <p>
+          I have 10 years of experience working directly with customers in a pharmacy environment.
+          My work has involved customer assistance, sales, product guidance, stock management,
+          receiving products, order follow-up and invoice data entry.
+        </p>
+        <br>
+        <p>
+          This experience has developed my ability to listen, communicate clearly, understand
+          customer needs, solve practical problems and stay organized during busy periods.
+        </p>
+      </div>
+      <div class="card">
+        <h3>Career Objective</h3>
+        <p>
+          I am looking to apply my customer-facing, sales and organizational skills in a dynamic
+          environment such as Yassir, particularly in driver acquisition, partner onboarding,
+          field operations and follow-up.
+        </p>
+        <br>
+        <p>
+          I am motivated to learn new digital tools and contribute to measurable operational goals.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="alt" id="experience">
+  <div class="container">
+    <h2 class="section-title">Professional Experience</h2>
+    <p class="section-sub">10 years of hands-on customer service, sales and operations experience.</p>
+    <div class="timeline">
+      <div class="role">
+        <h3>Pharmacy Sales &amp; Customer Service</h3>
+        <div class="date">Oran, Algeria · 10 years</div>
+        <ul>
+          <li>Daily customer service and direct communication.</li>
+          <li>Understanding customer needs and providing appropriate assistance.</li>
+          <li>Product sales and customer guidance.</li>
+          <li>Handling customer questions and requests.</li>
+          <li>Managing pharmacy stock and inventory.</li>
+          <li>Receiving and organizing incoming products.</li>
+          <li>Preparing and following orders.</li>
+          <li>Entering invoices into the pharmacy management system.</li>
+          <li>Maintaining accurate records and organized operations.</li>
+          <li>Working efficiently during busy periods and handling unexpected situations.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <div class="container">
+    <h2 class="section-title">Core Skills</h2>
+    <p class="section-sub">Transferable strengths relevant to customer acquisition, onboarding and field operations.</p>
+    <div class="skills">
+      <div class="skill">
+        <h3>Customer Relations</h3>
+        <div class="tags">
+          <span class="tag">Active listening</span><span class="tag">Customer assistance</span>
+          <span class="tag">Clear communication</span><span class="tag">Relationship building</span>
+        </div>
+      </div>
+      <div class="skill">
+        <h3>Sales &amp; Acquisition</h3>
+        <div class="tags">
+          <span class="tag">Direct sales</span><span class="tag">Customer needs</span>
+          <span class="tag">Product presentation</span><span class="tag">Questions &amp; objections</span>
+        </div>
+      </div>
+      <div class="skill">
+        <h3>Operations</h3>
+        <div class="tags">
+          <span class="tag">Stock management</span><span class="tag">Order follow-up</span>
+          <span class="tag">Data entry</span><span class="tag">Invoice processing</span>
+        </div>
+      </div>
+      <div class="skill">
+        <h3>Problem Solving</h3>
+        <div class="tags">
+          <span class="tag">Practical solutions</span><span class="tag">Adaptability</span>
+          <span class="tag">Attention to detail</span><span class="tag">Pressure handling</span>
+        </div>
+      </div>
+      <div class="skill">
+        <h3>Digital Skills</h3>
+        <div class="tags">
+          <span class="tag">Computer use</span><span class="tag">Smartphone</span>
+          <span class="tag">Data entry</span><span class="tag">Pharmacy software</span>
+        </div>
+      </div>
+      <div class="skill">
+        <h3>Work Style</h3>
+        <div class="tags">
+          <span class="tag">Reliable</span><span class="tag">Organized</span>
+          <span class="tag">Proactive</span><span class="tag">Team-oriented</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="alt">
+  <div class="container">
+    <h2 class="section-title">Education &amp; Languages</h2>
+    <div class="about-grid">
+      <div class="card">
+        <h3>Bachelor's Degree in Telecommunications</h3>
+        <p><strong>Université des Sciences et Technologies d'Oran (USTO-MB)</strong></p>
+        <p>Licence / Bachelor's Degree in Telecommunications · 2021</p>
+      </div>
+      <div class="card">
+        <h3>Languages</h3>
+        <p><strong>Arabic:</strong> Native</p>
+        <p><strong>French:</strong> Professional working proficiency</p>
+        <p><strong>English:</strong> Add your actual level</p>
+        <p><strong>German:</strong> Add your actual level</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2 class="section-title">What I Bring to a Team</h2>
+    <div class="highlight">
+      <div class="card"><span class="number">10+</span><strong>Years of customer-facing experience</strong></div>
+      <div class="card"><span class="number">4</span><strong>Core areas: sales, service, stock, operations</strong></div>
+      <div class="card"><span class="number">1</span><strong>Goal: deliver reliable, measurable results</strong></div>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="container">
+    <h2 class="section-title">Let's Connect</h2>
+    <p class="section-sub">I am available in Oran for full-time, on-site opportunities.</p>
+    <div class="contact-grid">
+      <div class="contact-card">
+        <strong>Location</strong>
+        <span>Oran, Algeria</span>
+      </div>
+      <div class="contact-card">
+        <strong>Email</strong>
+        <span>YOUR_EMAIL@example.com</span>
+      </div>
+      <div class="contact-card">
+        <strong>Phone</strong>
+        <span>+213 XX XX XX XX</span>
+      </div>
+      <div class="contact-card">
+        <strong>LinkedIn</strong>
+        <span>ADD YOUR LINKEDIN URL</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  © 2026 Belarbi Brahim · Oran, Algeria
+</footer>
+
+</body>
+</html>
